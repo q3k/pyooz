@@ -1,8 +1,29 @@
-gooz
-====
+pyooz
+=====
 
-A Go port of [ooz](https://github.com/powzix/ooz), an open-source Kraken /
-Mermaid / Selkie / Leviathan / LZNA / Bitknit decompressor.
+Python bindings for [ooz](https://github.com/powzix/ooz), an open-source Kraken
+/ Mermaid / Selkie / Leviathan / LZNA / Bitknit decompressor.
+
+Based on [gooz](https://github.com/oriath-net/gooz), which did the heavy
+lifting of porting ooz to Linux/gcc.
+
+**This is not tested throughly. Please don't use for production purposes
+without verifying things first.**
+
+Usage
+-----
+
+Clone, setup.py install into a venv. Should work OOTB as long as you have
+cython and a gcc.
+
+Not on PyPI yet.
+
+You can also use Nix to build or use this library - see default.nix.
+
+Licensing
+---------
+
+pyooz is copyright (C) 2020, Serge 'q3k' Bazanski
 
 ooz is copyright (C) 2016, Powzix.
 
